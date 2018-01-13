@@ -97,5 +97,8 @@
   <ItemGroup>
     <None Include="Resources\Minimize_Window_32px_1.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bulleted List_32px.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

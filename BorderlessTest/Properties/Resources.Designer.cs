@@ -103,6 +103,16 @@ namespace BorderlessTest.Properties {
         /// <summary>
         ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Bulleted_List_32px {
+            get {
+                object obj = ResourceManager.GetObject("Bulleted List_32px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Close_Window_32px_1 {
             get {
                 object obj = ResourceManager.GetObject("Close_Window_32px_1", resourceCulture);
