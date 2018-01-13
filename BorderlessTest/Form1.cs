@@ -76,11 +76,6 @@ namespace BorderlessTest
             isMouseDown = false;
         }
 
-        private void bMaximise_Click(object sender, EventArgs e)
-        {
-            toggleWindowState();
-        }
-
         private void panelTop_DoubleClick(object sender, EventArgs e)
         {
             toggleWindowState();
@@ -106,14 +101,50 @@ namespace BorderlessTest
                 isMaximized = true;
             }
         }
+        
 
-        private void bMinimize_Click(object sender, EventArgs e)
+        private void bMaximize_Click(object sender, EventArgs e)
+        {
+            toggleWindowState();
+        }
+
+        private void bMinimize_Click_1(object sender, EventArgs e)
         {
             this.WindowState = FormWindowState.Minimized;
         }
 
         #endregion
 
-        //Here is an expample change
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            sidePanel.Top = button1.Top;
+            label2.Text = "The 2 testimonies";
+        }
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+            sidePanel.Top = button2.Top;
+            label2.Text = "The 5 daily prayers";
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            sidePanel.Top = button3.Top;
+            label2.Text = "The oligatory zakât";
+
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            sidePanel.Top = button4.Top;
+            label2.Text = "The fast of Ramadhân";
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            sidePanel.Top = button5.Top;
+            label2.Text = "The hadj";
+        }
+
     }
 }

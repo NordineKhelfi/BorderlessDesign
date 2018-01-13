@@ -88,5 +88,14 @@
   <ItemGroup>
     <None Include="Resources\BTctrlRestaurer.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Close_Window_32px_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Maximize_Window_32px_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Minimize_Window_32px_1.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

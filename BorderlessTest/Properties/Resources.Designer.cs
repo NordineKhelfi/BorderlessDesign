@@ -73,6 +73,16 @@ namespace BorderlessTest.Properties {
         /// <summary>
         ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap BTctrlAgrandir1 {
+            get {
+                object obj = ResourceManager.GetObject("BTctrlAgrandir1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap BTctrlReduire {
             get {
                 object obj = ResourceManager.GetObject("BTctrlReduire", resourceCulture);
@@ -86,6 +96,36 @@ namespace BorderlessTest.Properties {
         internal static System.Drawing.Bitmap BTctrlRestaurer {
             get {
                 object obj = ResourceManager.GetObject("BTctrlRestaurer", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Close_Window_32px_1 {
+            get {
+                object obj = ResourceManager.GetObject("Close_Window_32px_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Maximize_Window_32px_1 {
+            get {
+                object obj = ResourceManager.GetObject("Maximize_Window_32px_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Minimize_Window_32px_1 {
+            get {
+                object obj = ResourceManager.GetObject("Minimize_Window_32px_1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
