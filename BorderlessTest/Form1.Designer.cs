@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.panelTop = new System.Windows.Forms.Panel();
             this.bMinimize = new System.Windows.Forms.Button();
             this.bMaximize = new System.Windows.Forms.Button();
@@ -52,6 +53,7 @@
             this.label6 = new System.Windows.Forms.Label();
             this.tbKey = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
+            this.button8 = new System.Windows.Forms.Button();
             this.panelTop.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -275,10 +277,10 @@
             this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(221, 137);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(237, 33);
+            this.label2.Size = new System.Drawing.Size(181, 24);
             this.label2.TabIndex = 2;
             this.label2.Text = "The 2 testimonies";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -297,50 +299,55 @@
             // 
             // tbMsg
             // 
-            this.tbMsg.Location = new System.Drawing.Point(177, 41);
+            this.tbMsg.Location = new System.Drawing.Point(177, 38);
             this.tbMsg.Multiline = true;
             this.tbMsg.Name = "tbMsg";
             this.tbMsg.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-            this.tbMsg.Size = new System.Drawing.Size(198, 82);
+            this.tbMsg.Size = new System.Drawing.Size(198, 85);
             this.tbMsg.TabIndex = 6;
             // 
             // decryptPanel
             // 
             this.decryptPanel.Controls.Add(this.tbResult);
+            this.decryptPanel.Controls.Add(this.button8);
             this.decryptPanel.Controls.Add(this.button7);
             this.decryptPanel.Controls.Add(this.label6);
             this.decryptPanel.Controls.Add(this.tbKey);
             this.decryptPanel.Controls.Add(this.label5);
             this.decryptPanel.Controls.Add(this.tbMsg);
-            this.decryptPanel.Location = new System.Drawing.Point(227, 214);
+            this.decryptPanel.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.decryptPanel.Location = new System.Drawing.Point(190, 214);
             this.decryptPanel.Name = "decryptPanel";
-            this.decryptPanel.Size = new System.Drawing.Size(685, 341);
+            this.decryptPanel.Size = new System.Drawing.Size(765, 341);
             this.decryptPanel.TabIndex = 4;
             this.decryptPanel.Visible = false;
             // 
             // tbResult
             // 
+            this.tbResult.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.tbResult.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(206)))), ((int)(((byte)(180)))), ((int)(((byte)(255)))));
-            this.tbResult.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.tbResult.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.tbResult.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbResult.Location = new System.Drawing.Point(24, 157);
             this.tbResult.Multiline = true;
             this.tbResult.Name = "tbResult";
             this.tbResult.ReadOnly = true;
-            this.tbResult.Size = new System.Drawing.Size(618, 172);
+            this.tbResult.ScrollBars = System.Windows.Forms.ScrollBars.Both;
+            this.tbResult.Size = new System.Drawing.Size(698, 172);
             this.tbResult.TabIndex = 6;
             this.tbResult.TabStop = false;
             // 
             // button7
             // 
+            this.button7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.button7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(67)))), ((int)(((byte)(94)))));
             this.button7.FlatAppearance.BorderSize = 0;
             this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button7.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button7.ForeColor = System.Drawing.Color.White;
-            this.button7.Location = new System.Drawing.Point(466, 41);
+            this.button7.Location = new System.Drawing.Point(546, 38);
             this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(176, 82);
+            this.button7.Size = new System.Drawing.Size(176, 40);
             this.button7.TabIndex = 8;
             this.button7.Text = "Decrypt";
             this.button7.UseVisualStyleBackColor = false;
@@ -375,6 +382,22 @@
             this.label5.TabIndex = 4;
             this.label5.Text = "Enter your text :";
             // 
+            // button8
+            // 
+            this.button8.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.button8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(67)))), ((int)(((byte)(94)))));
+            this.button8.FlatAppearance.BorderSize = 0;
+            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button8.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button8.ForeColor = System.Drawing.Color.White;
+            this.button8.Location = new System.Drawing.Point(546, 84);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(176, 39);
+            this.button8.TabIndex = 8;
+            this.button8.Text = "Clear";
+            this.button8.UseVisualStyleBackColor = false;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -388,6 +411,7 @@
             this.Controls.Add(this.panelTop);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
@@ -429,6 +453,7 @@
         private System.Windows.Forms.TextBox tbKey;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox tbResult;
+        private System.Windows.Forms.Button button8;
     }
 }
 

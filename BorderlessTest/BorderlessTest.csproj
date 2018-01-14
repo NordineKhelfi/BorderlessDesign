@@ -31,6 +31,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>icons8_Paint_Palette.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -99,6 +102,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Bulleted List_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="icons8_Paint_Palette.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

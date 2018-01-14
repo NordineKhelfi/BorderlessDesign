@@ -185,5 +185,12 @@ namespace BorderlessTest
             if(e.KeyCode == Keys.Enter)
                 tbResult.Text = DeCrypt(Int32.Parse(tbKey.Text), tbMsg.Text);
         }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            tbResult.Clear();
+            tbKey.Clear();
+            tbMsg.Clear();
+        }
     }
 }
